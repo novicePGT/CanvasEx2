@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemLINE"
+        android:title="선 그리기"></item>
+    <item
+        android:id="@+id/itemCIRCLE"
+        android:title="원 그리기"></item>
+    <item
+        android:id="@+id/itemRECT"
+        android:title="사각형 그리기"></item>
+    <item
+        android:id="@+id/itemFILL"
+        android:title="도형 채우기"></item>
+    <item
+        android:id="@+id/itemSTROKE"
+        android:title="도형 비우기"></item>
+    <item android:title="색 변경 >> ">
+        <menu>
+        <item
+            android:id="@+id/itemRED"
+            android:title="색 변경(빨강)"></item>
+        <item
+            android:id="@+id/itemBLUE"
+            android:title="색 변경(파랑)"></item>
+        <item
+            android:id="@+id/itemGREEN"
+            android:title="색 변경(초록)"></item>
+        </menu>
+    </item>
+</menu>
